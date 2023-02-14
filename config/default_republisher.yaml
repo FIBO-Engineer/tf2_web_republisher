@@ -1,0 +1,5 @@
+default_republisher:
+  map:
+    base_link
+  base_link:
+    human

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="tf2_web_republisher" name="tf2_web_republisher" type="tf2_web_republisher"
+        output="screen">
+        <param name="default_rate" value="5.0" />
+        <param name="tf_timeout" value="0.5" />
+        <rosparam command="load" file="$(find tf2_web_republisher)/config/default_republisher.yaml" />
+    </node>
+</launch>
